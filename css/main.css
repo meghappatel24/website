@@ -666,6 +666,10 @@ input[type=button] {
       .mission-content p {
         width: 45%;
       }
+
+      .map figure {
+        padding-bottom: 45.5%;
+      }
     
       .contact-section .content-wrapper h2 {
         width: 80%;
@@ -777,10 +781,15 @@ input[type=button] {
           .mission h2,
           .contact-section .content-wrapper h2 {
               width: 95%;
+              font-size: 3em;
           }
 
           .contact-content h4 {
             font-size: 1.875em;
+          }
+
+          .map figure {
+            padding-bottom: 37.5%;
           }
        
       /* ==========================================================================
@@ -788,6 +797,7 @@ input[type=button] {
          ========================================================================== */
           .faq h2 {
               width: 100%;
+              font-size: 3em;
           }
 
           .faq h4,
