@@ -86,6 +86,112 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/*********** General Styles *****************/
+ 
+html {
+  font-size: 16px;
+	color: #e2e3ed;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+header {
+  background-color: #202322;
+} 
+ul, 
+li {
+  list-style-type: none;
+  font-size: 1.125em;
+  font-weight: bold;
+ 
+}
+h1{
+  font-size: 2.25em;
+} 
+a {
+	color: #e2e3ed;
+  text-decoration: none;
+}
+aside {
+  background-color: #527158;
+} 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+}
+
+aside h3 {
+  font-size: 1.125em;
+} 
+aside p {
+	line-height: 18px;
+  font-size: 0.875em;
+}
+
+.features h2 {
+  font-size: 1.875em;
+}
+
+.features-item-description {
+  color: #e1e2ea;
+  font-size: 0.875em;
+  line-height: 18px;
+}
+
+.reviews {
+  background-color: #2a423a;
+  color: #e2e3ed;
+}
+
+.reviews h2 {
+  font-size: 1.875em;
+  line-height: 1.875em;
+}
+.reviews h3{
+  font-size: 1.125em;
+}
+.reviews p {
+  font-size: 0.875em;
+  line-height: 1.125em;
+}
+img {
+ 
+}
+ 
+figure {
+ 
+}
+ 
+address {
+ font-size: 0.875em;
+}
+
+footer {
+  background-color: #202322;
+  color: #ffffff;
+  }
+.footer-content h4{
+  font-size: 1.125em;
+} 
+
+.copyright {
+  font-size: 0.875em;
+}
+
+.content-wrapper {
+ 
+}   
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
