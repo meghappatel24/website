@@ -143,7 +143,15 @@ address {
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
-  }  
+  } 
+  
+  img {
+    width: 100%;
+  }
+  
+  figure {
+    margin: 0;
+  }
 
    /*========== Header and Footer Base style =======*/
 
@@ -243,6 +251,10 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/background-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -294,6 +306,9 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/unsplash1.png');
+  background-size: cover;
+  background-position: center;
   }
 
 .features h2 {
@@ -529,6 +544,10 @@ input[type=button] {
         line-height: 1;
         margin: 0;
     }
+
+    .hero-area {
+      min-height: 600px;
+    }
     
       /* Aside */
       aside .content-wrapper {
@@ -579,6 +598,11 @@ input[type=button] {
       .reviews h3 {
         width: 75%;
         margin: 0;
+    }
+
+    .reviews article figure,
+    .reviews article div {
+      width: 49%;
     }
     
       /* Footer */
