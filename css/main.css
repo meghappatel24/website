@@ -267,7 +267,7 @@ footer .copyright {
   font-size: 2.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500; 
-  line-height: 1.2; 
+  line-height: 1.2em; 
 }
 
 /* ---------- Aside --------- */
@@ -335,7 +335,7 @@ input[type=button] {
 
 .features article {
   width: 65%;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .features p {
@@ -356,8 +356,8 @@ input[type=button] {
 }
 
 .reviews h3 {
-  width: 55%;
-  margin: 20px 0;
+  width: 65%;
+  margin: 30px 0;
 }
 
 /* ===============   About Page ============================ */
@@ -761,7 +761,7 @@ input[type=button] {
        
            /* Hero */
           .hero-area h1 {
-              width: 60%; 
+              width: 70%; 
               font-size: 3.75em;
           }
        
